@@ -1,23 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel&family=Nanum+Myeongjo&family=Reenie+Beanie&display=swap');
 html {
   font-size: calc(100vmax / 1500 * 100);
 }
 
 body {
   height: 100vh;
-  background-color: #e2aa01;
+  background-color: #c06684;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
 
-/* .title {
-  font-family: "Pacifico", cursive;
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+  /* font-family: 'Satisfy', cursive; */
+  font-family: 'Reenie Beanie', cursive;
   font-size: clamp(36px, 0.6rem, 100px);
   color: #fff;
-  text-shadow: 6px 4px #735b13;
-} */
+  /* text-shadow: 2px 4px #735b13; */
+}
 
 [class^="firework-"] {
   position: absolute;
